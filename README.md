@@ -1,12 +1,10 @@
 # ItalianRoundRobin
 
-TODO: Delete this and the text below, and describe your gem
+The Gem allows you to generate Round Robin tournament pairings based on Berger tables.
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/italian_round_robin`. To experiment with that code, run `bin/console` for an interactive prompt.
+[Wikipedia](https://en.wikipedia.org/wiki/Round-robin_tournament#Berger_tables)
 
 ## Installation
-
-TODO: Replace `UPDATE_WITH_YOUR_GEM_NAME_PRIOR_TO_RELEASE_TO_RUBYGEMS_ORG` with your gem name right after releasing it to RubyGems.org. Please do not do it earlier due to security reasons. Alternatively, replace this section with instructions to install your gem from git if you don't plan to release to RubyGems.org.
 
 Install the gem and add to the application's Gemfile by executing:
 
@@ -28,7 +26,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/italian_round_robin. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [code of conduct](https://github.com/[USERNAME]/italian_round_robin/blob/main/CODE_OF_CONDUCT.md).
+Bug reports and pull requests are welcome on GitHub at https://github.com/LapoElisacci/italian_round_robin. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [code of conduct](https://github.com/LapoElisacci/italian_round_robin/blob/main/CODE_OF_CONDUCT.md).
 
 ## License
 
@@ -36,4 +34,4 @@ The gem is available as open source under the terms of the [MIT License](https:/
 
 ## Code of Conduct
 
-Everyone interacting in the ItalianRoundRobin project's codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/[USERNAME]/italian_round_robin/blob/main/CODE_OF_CONDUCT.md).
+Everyone interacting in the ItalianRoundRobin project's codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/LapoElisacci/italian_round_robin/blob/main/CODE_OF_CONDUCT.md).
