@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-RSpec.describe ItalianRoundRobin do
+RSpec.describe ItalianRoundRobin do # rubocop:disable Metrics/BlockLength
   it "has a version number" do
     expect(ItalianRoundRobin::VERSION).not_to be nil
   end
