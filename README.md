@@ -1,5 +1,10 @@
 # ItalianRoundRobin
 
+![](https://github.com/LapoElisacci/italian_round_robin/actions/workflows/main.yml/badge.svg)
+![](https://img.shields.io/static/v1?label=Coverage&message=100%&color=brightgreen)
+![](https://img.shields.io/static/v1?label=Latest&message=0.1.0&color=blue)
+![](https://img.shields.io/static/v1?label=Licence&message=MIT&color=green)
+
 The Gem allows you to generate Round Robin tournament pairings based on Berger tables.
 
 [Wikipedia](https://en.wikipedia.org/wiki/Round-robin_tournament#Berger_tables)
@@ -8,11 +13,11 @@ The Gem allows you to generate Round Robin tournament pairings based on Berger t
 
 Install the gem and add to the application's Gemfile by executing:
 
-    $ bundle add UPDATE_WITH_YOUR_GEM_NAME_PRIOR_TO_RELEASE_TO_RUBYGEMS_ORG
+    $ bundle add italian_round_robin
 
 If bundler is not being used to manage dependencies, install the gem by executing:
 
-    $ gem install UPDATE_WITH_YOUR_GEM_NAME_PRIOR_TO_RELEASE_TO_RUBYGEMS_ORG
+    $ gem install italian_round_robin
 
 ## Usage
 
