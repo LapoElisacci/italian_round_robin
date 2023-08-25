@@ -21,7 +21,33 @@ If bundler is not being used to manage dependencies, install the gem by executin
 
 ## Usage
 
-TODO: Write usage instructions here
+Passing a list of any item to the `generate` method will return all rounds based on Berger tables:
+
+```ruby
+members = [1, 2, 3, 4] # This can be a list of anything (Integer, String, Object, ...)
+rounds = ItalianRoundRobin.generate(members)
+
+# [
+#     [[1, 4], [2, 3]],
+#     [[4, 3], [1, 2]],
+#     [[2, 4], [3, 1]]
+# ]
+```
+
+The gem supports odd numbers of players as well, a `nil` value will stand for BYE
+
+```ruby
+members = [1, 2, 3, 4, 5] # This can be a list of anything (Integer, String, Object, ...)
+rounds = ItalianRoundRobin.generate(members)
+
+# [
+#     [[1, nil], [2, 5], [3, 4]],
+#     [[nil, 4], [5, 3], [1, 2]],
+#     [[2, nil], [3, 1], [4, 5]],
+#     [[nil, 5], [1, 4], [2, 3]],
+#     [[3, nil], [4, 2], [5, 1]]
+# ]
+```
 
 ## Development
 
