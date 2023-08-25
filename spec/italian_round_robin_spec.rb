@@ -39,6 +39,23 @@ RSpec.describe ItalianRoundRobin do
       result = described_class.generate(members)
       expect(result).to eq(expected_result)
     end
+  end
 
+  context "when players number is odd" do
+    let(:members) { [1, 2, 3, 4, 5] }
+    let(:expected_result) do
+      [
+        [[1, nil], [2, 5], [3, 4]],
+        [[nil, 4], [5, 3], [1, 2]],
+        [[2, nil], [3, 1], [4, 5]],
+        [[nil, 5], [1, 4], [2, 3]],
+        [[3, nil], [4, 2], [5, 1]]
+      ]
+    end
+
+    it "generates the pairings with bye" do
+      result = described_class.generate(members)
+      expect(result).to eq(expected_result)
+    end
   end
 end
